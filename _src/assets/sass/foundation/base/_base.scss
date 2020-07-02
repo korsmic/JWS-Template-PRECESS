@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 18px;
+  line-height: 1.66;
+  font-weight: 500;
+  @include tab {
+    font-size: 10px;
+    line-height: 1.75;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+i,
+em,
+strong {
+  font-style: normal;
+}

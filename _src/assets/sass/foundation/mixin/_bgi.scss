@@ -1,0 +1,4 @@
+@mixin bgi($url) {
+  $img: '../images/';
+  background-image: url($img+$url);
+}

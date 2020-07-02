@@ -1,0 +1,112 @@
+// block
+.hp_db {
+  display: block;
+}
+.hp_db-pc {
+  display: block;
+  @include tab {
+    display: none;
+  }
+}
+.hp_db-sp {
+  display: none;
+  @include tab {
+    display: block;
+  }
+}
+.hp_dib_db {
+  display: inline-block;
+  @include tab {
+    display: block;
+  }
+}
+
+// inline-block
+.hp_dib {
+  display: inline-block;
+}
+.hp_dib-pc {
+  display: inline-block;
+  @include tab {
+    display: none;
+  }
+}
+.hp_dib-sp {
+  display: none;
+  @include tab {
+    display: inline-block;
+  }
+}
+.hp_db-di {
+  display: block;
+  @include tab {
+    display: inline;
+  }
+}
+.hp_dib-di {
+  display: inline;
+  @include tab {
+    display: inline;
+  }
+}
+.hp_dib-db {
+  display: inline-block;
+  @include tab {
+    display: block;
+  }
+}
+
+// inline
+.hp_di {
+  display: inline;
+}
+.hp_di-pc {
+  display: inline;
+  @include tab {
+    display: none;
+  }
+}
+.hp_di-sp {
+  display: none;
+  @include tab {
+    display: inline;
+  }
+}
+
+// flex
+.hp_df {
+  display: flex;
+}
+.hp_df-pc {
+  display: flex;
+  @include tab {
+    display: none;
+  }
+}
+.hp_df-sp {
+  display: none;
+  @include tab {
+    display: flex;
+  }
+}
+
+// flex
+.hp_dif {
+  display: inline-flex;
+}
+.hp_dif-pc {
+  display: inline-flex;
+  @include tab {
+    display: none;
+  }
+}
+.hp_dif-sp {
+  display: none;
+  @include tab {
+    display: inline-flex;
+  }
+}
+
+.hp_w100p {
+  width: 100%;
+}

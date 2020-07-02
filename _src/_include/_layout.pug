@@ -1,0 +1,19 @@
+block var
+
+- var path = metas[pageId].path
+- var img = path+"assets/images/"
+//- - var img = "https://xxx/xxx/assets/images"
+
+<!DOCTYPE html>
+html(lang="ja")
+  head
+    include ./common/_head
+    include ./common/_gahead
+
+  body(id=pageId)
+    include ./common/_gabody
+    .wrap
+      include ./common/_header
+      main
+        block content
+      include ./common/_footer

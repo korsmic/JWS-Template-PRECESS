@@ -1,0 +1,36 @@
+{
+  "metas": {
+    "common": {
+      "og_site_name": "サイト名・ブランド名",
+      "og_image": "https://aaaaaaaa",
+      "tw_site": "@twitter",
+      "tw_card": "summary_large_image"
+    },
+    "index": {
+      "id": "index",
+      "path": "./",
+      "title": "タイトル",
+      "og_title": "タイトル",
+      "tw_title": "タイトル",
+      "description": "description",
+      "og_description": "description",
+      "tw_description": "description",
+      "keywords": "keywords",
+      "og_url": "https://bbbbbb",
+      "og_type": "website"
+    },
+    "under": {
+      "id": "under",
+      "path": "../",
+      "title": "下層ページ",
+      "og_title": "下層ページ",
+      "tw_title": "下層ページ",
+      "description": "description",
+      "og_description": "description",
+      "tw_description": "description",
+      "keywords": "keywords",
+      "og_url": "https://bbbbbb",
+      "og_type": "website"
+    }
+  }
+}
